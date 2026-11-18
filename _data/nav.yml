@@ -1,5 +1,7 @@
 - url: /
   title: Start
+- url: /prologue.html
+  title: Prologue
 - url: /mechanism.html
   title: "I · Mechanism"
 - url: /secularization.html
@@ -10,6 +12,8 @@
   title: "II · Fracture"
 - url: /signs.html
   title: Signs
+- url: /hearth.html
+  title: Hearth
 - url: /ways-through.html
   title: "III · Ways Through"
 - url: /criticisms.html
