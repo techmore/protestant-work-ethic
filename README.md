@@ -1,5 +1,7 @@
 # The Calling & the Cage
 
-An expanded explainer on the "Protestant work ethic": Weber's thesis, Calvinist salvation anxiety, Franklin's secularized virtues, Nietzsche's "God is dead," Rand, what happens when a shared story fractures, the scholarly critiques, and a reading list.
+An explainer on the "Protestant work ethic": Weber's mechanism, secularization (Franklin and the American self-made man), the substitutes that followed (Nietzsche, Rand, the therapeutic, political religions), the fracture of shared moral grammar, criticisms of the thesis, a timeline, and a reading list.
 
 Live site: https://techmore.github.io/protestant-work-ethic/
+
+Built with Jekyll on GitHub Pages: shared layout in `_layouts/default.html`, nav order in `_data/nav.yml`, styles in `assets/style.css`. Edit any page's `.html` file and push; Pages rebuilds automatically.
