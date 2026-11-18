@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.url == "/" %}{{ site.title }}: {{ site.subtitle }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+<meta name="author" content="{{ site.author }}">
 <meta name="description" content="{{ page.description | default: site.description }}">
 <meta property="og:title" content="{% if page.url == '/' %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -30,7 +31,7 @@
 
 <footer>
   <div class="wrap">
-    <p class="cite"><b>Cite as:</b> <i>{{ site.title }}: {{ site.subtitle }}</i>. Version {{ site.version }}, {{ site.version_date }}. https://techmore.github.io/protestant-work-ethic/</p>
+    <p class="cite"><b>Cite as:</b> {{ site.author }}, <i>{{ site.title }}: {{ site.subtitle }}</i>. Version {{ site.version }}, {{ site.version_date }}. https://techmore.github.io/protestant-work-ethic/</p>
     <p>Quotations follow standard English translations, identified in the notes. Claims are tagged by evidential status; see the legend at the head of the essay. Book links go to Amazon search results; papers link to their DOI or publisher.</p>
   </div>
 </footer>
