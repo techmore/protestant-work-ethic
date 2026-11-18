@@ -263,6 +263,7 @@ ol.criteria li::before { content: counter(q); position: absolute; left: 0; top: 
 /* ============ Footer ============ */
 footer { margin-top: 80px; padding: 28px 0 56px; border-top: 1px solid var(--rule); font: 400 .86rem/1.6 var(--sans); color: var(--muted); }
 footer .cite { font-family: var(--serif); font-size: .95rem; color: var(--ink-2); }
+footer .hub-link a { color: inherit; }
 
 @media (max-width: 560px) {
   body { font-size: 1.06rem; }
