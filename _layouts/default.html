@@ -14,7 +14,7 @@
 <body>
 <div class="bar">
   <div class="wide">
-    <a class="brand" href="./">The Calling &amp; the Cage</a>
+    <a class="brand" href="./">{{ site.title }}</a>
     <nav aria-label="Pages">
       {% for item in site.data.nav %}<a href=".{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
       {% endfor %}
@@ -46,7 +46,7 @@
 
 <footer>
   <div class="wrap">
-    <p>An explainer on Max Weber’s thesis and what came after it. Quotations are from standard English translations (Weber: Talcott Parsons, 1930; Nietzsche: Walter Kaufmann and R. J. Hollingdale). Contested scholarship is summarized briefly; the <a href="./reading.html">reading list</a> has the full arguments.</p>
+    <p>A story in three parts, starting from Max Weber’s thesis on the Protestant work ethic. Book links go to Amazon search results. Quotations are from standard English translations (Weber: Talcott Parsons, 1930; Nietzsche: Walter Kaufmann and R. J. Hollingdale). Contested scholarship is summarized briefly; the <a href="./reading.html">reading list</a> has the full arguments.</p>
   </div>
 </footer>
 <script src="assets/site.js"></script>

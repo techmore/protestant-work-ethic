@@ -1,13 +1,17 @@
 - url: /
-  title: Overview
+  title: Start
 - url: /mechanism.html
-  title: Mechanism
+  title: "I · Mechanism"
 - url: /secularization.html
   title: Secularization
 - url: /substitutes.html
   title: Substitutes
 - url: /fracture.html
-  title: Fracture
+  title: "II · Fracture"
+- url: /signs.html
+  title: Signs
+- url: /ways-through.html
+  title: "III · Ways Through"
 - url: /criticisms.html
   title: Criticisms
 - url: /timeline.html
