@@ -15,3 +15,5 @@ Live: https://techmore.github.io/protestant-work-ethic/
 - The old chapter URLs redirect to the matching essay sections
 
 Set `amazon_tag` in `_config.yml` to add an Amazon Associates tag.
+
+Part of [Techmore](https://techmore.github.io/pages/repos/).
