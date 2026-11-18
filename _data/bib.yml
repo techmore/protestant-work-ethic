@@ -1,0 +1,69 @@
+# Bibliography. `q` = Amazon search for books; `url` = DOI/official link for papers and reports.
+- section: "Primary sources"
+  items:
+    - { cite: "Baxter, Richard. <i>A Christian Directory</i>. 1673.", q: "Richard Baxter A Christian Directory", why: "Weber’s principal Puritan source on calling, stewardship, and time." }
+    - { cite: "Calvin, John. <i>Institutes of the Christian Religion</i>. 1536; final Latin ed. 1559.", q: "Calvin Institutes of the Christian Religion", why: "The doctrine of predestination in its classic form." }
+    - { cite: "Franklin, Benjamin. <i>The Autobiography of Benjamin Franklin</i>. Composed 1771–90.", q: "Autobiography of Benjamin Franklin", why: "Deism, the thirteen virtues, and the daily ledger of faults." }
+    - { cite: "Franklin, Benjamin. “Advice to a Young Tradesman, Written by an Old One.” 1748.", url: "https://founders.archives.gov/documents/Franklin/01-03-02-0130", why: "“Time is money.” Full text at Founders Online." }
+    - { cite: "Westminster Assembly. <i>The Westminster Confession of Faith</i>. 1646.", q: "Westminster Confession of Faith", why: "Chapter III states double predestination." }
+    - { cite: "Weber, Max. <i>The Protestant Ethic and the Spirit of Capitalism</i>. 1904–05; rev. 1920. Trans. Talcott Parsons, 1930.", q: "Weber Protestant Ethic and the Spirit of Capitalism Parsons", why: "The source of the thesis, the practical syllogism discussion, and the “iron cage.”" }
+    - { cite: "Weber, Max. <i>From Max Weber: Essays in Sociology</i>. Trans. and ed. H. H. Gerth and C. Wright Mills. 1946.", q: "From Max Weber Essays in Sociology Gerth Mills", why: "Contains “Science as a Vocation” and “Politics as a Vocation.”" }
+    - { cite: "Tocqueville, Alexis de. <i>Democracy in America</i>. 1835, 1840.", q: "Tocqueville Democracy in America", why: "Religion as the first American political institution; voluntary associations." }
+    - { cite: "Carnegie, Andrew. “Wealth.” <i>North American Review</i> 148 (June 1889).", q: "Carnegie The Gospel of Wealth", why: "Stewardship of fortune for an industrial age." }
+    - { cite: "Nietzsche, Friedrich. <i>The Gay Science</i>. 1882. Trans. Walter Kaufmann, 1974.", q: "Nietzsche The Gay Science Kaufmann", why: "§125, “The Madman.”" }
+    - { cite: "Nietzsche, Friedrich. <i>Twilight of the Idols</i>. 1889.", q: "Nietzsche Twilight of the Idols", why: "The George Eliot passage on keeping morality without faith." }
+    - { cite: "Durkheim, Émile. <i>Suicide: A Study in Sociology</i>. 1897. Trans. John A. Spaulding and George Simpson, 1951.", q: "Durkheim Suicide A Study in Sociology", why: "Suicide as a function of social integration." }
+    - { cite: "Durkheim, Émile. <i>The Elementary Forms of Religious Life</i>. 1912.", q: "Durkheim Elementary Forms of Religious Life", why: "The sacred as a social product." }
+
+- section: "The Weber debate"
+  items:
+    - { cite: "Becker, Sascha O., and Ludger Woessmann. “Was Weber Wrong? A Human Capital Theory of Protestant Economic History.” <i>Quarterly Journal of Economics</i> 124, no. 2 (2009): 531–596.", url: "https://doi.org/10.1162/qjec.2009.124.2.531", why: "Literacy, not asceticism, explains the Prussian Protestant advantage." }
+    - { cite: "Becker, Sascha O., and Ludger Woessmann. “Social Cohesion, Religious Beliefs, and the Effect of Protestantism on Suicide.” <i>Review of Economics and Statistics</i> 100, no. 3 (2018): 377–391.", url: "https://doi.org/10.1162/REST_a_00708", why: "A modern test of Durkheim." }
+    - { cite: "Bellah, Robert N. <i>Tokugawa Religion: The Values of Pre-Industrial Japan</i>. 1957.", q: "Bellah Tokugawa Religion", why: "A Weberian analogue outside Protestantism." }
+    - { cite: "Cantoni, Davide. “The Economic Effects of the Protestant Reformation: Testing the Weber Hypothesis in the German Lands.” <i>Journal of the European Economic Association</i> 13, no. 4 (2015): 561–598.", url: "https://doi.org/10.1111/jeea.12117", why: "No growth effect across 272 German cities." }
+    - { cite: "Hamilton, Richard F. <i>The Social Misconstruction of Reality</i>. 1996.", q: "Richard Hamilton The Social Misconstruction of Reality", why: "Chapter 2 reexamines Weber’s statistics." }
+    - { cite: "Henrich, Joseph. <i>The WEIRDest People in the World</i>. 2020.", q: "Henrich The WEIRDest People in the World", why: "Western individualism traced to the medieval Church." }
+    - { cite: "Kendall, R. T. <i>Calvin and English Calvinism to 1649</i>. 1979.", q: "Kendall Calvin and English Calvinism to 1649", why: "The development of assurance doctrine after Calvin." }
+    - { cite: "McCloskey, Deirdre N. <i>Bourgeois Dignity</i>. 2010.", q: "McCloskey Bourgeois Dignity", why: "Growth explained by a change in the rhetoric of commerce." }
+    - { cite: "Samuelsson, Kurt. <i>Religion and Economic Action</i>. 1957; trans. E. G. French, 1961.", q: "Samuelsson Religion and Economic Action", why: "The classic empirical critique of Weber." }
+    - { cite: "Spenkuch, Jörg L. “Religion and Work: Micro Evidence from Contemporary Germany.” <i>Journal of Economic Behavior &amp; Organization</i> 135 (2017): 193–214.", url: "https://doi.org/10.1016/j.jebo.2017.01.011", why: "Protestants work longer hours; wages unaffected." }
+    - { cite: "Tawney, R. H. <i>Religion and the Rise of Capitalism</i>. 1926.", q: "Tawney Religion and the Rise of Capitalism", why: "The classic sympathetic critique." }
+
+- section: "Secularization and the missing author"
+  items:
+    - { cite: "Rand, Ayn. <i>The Virtue of Selfishness</i>. 1964.", q: "Ayn Rand The Virtue of Selfishness", why: "Contains “The Objectivist Ethics” (1961)." }
+    - { cite: "Rieff, Philip. <i>The Triumph of the Therapeutic: Uses of Faith after Freud</i>. 1966.", q: "Rieff The Triumph of the Therapeutic", why: "From religious to psychological man." }
+    - { cite: "Taylor, Charles. <i>A Secular Age</i>. 2007.", q: "Charles Taylor A Secular Age", why: "Against subtraction stories; the modern moral order." }
+    - { cite: "Tillich, Paul. <i>Dynamics of Faith</i>. 1957.", q: "Tillich Dynamics of Faith", why: "Faith as ultimate concern; idolatry as the ultimacy of the finite." }
+    - { cite: "Voegelin, Eric. <i>The New Science of Politics</i>. 1952.", q: "Voegelin The New Science of Politics", why: "Modern ideology as immanentized eschatology." }
+
+- section: "The contemporary condition"
+  items:
+    - { cite: "Bellezza, Silvia, Neeru Paharia, and Anat Keinan. “Conspicuous Consumption of Time.” <i>Journal of Consumer Research</i> 44, no. 1 (2017): 118–138.", url: "https://doi.org/10.1093/jcr/ucw076", why: "Busyness as a status symbol." }
+    - { cite: "Borgmann, Albert. <i>Technology and the Character of Contemporary Life</i>. 1984.", q: "Borgmann Technology and the Character of Contemporary Life", why: "The device paradigm and focal practices." }
+    - { cite: "Case, Anne, and Angus Deaton. <i>Deaths of Despair and the Future of Capitalism</i>. 2020.", q: "Case Deaton Deaths of Despair and the Future of Capitalism", why: "The definitive account of the mortality trend." }
+    - { cite: "Case, Anne, and Angus Deaton. “Rising Morbidity and Mortality in Midlife among White Non-Hispanic Americans.” <i>PNAS</i> 112, no. 49 (2015): 15078–15083.", url: "https://doi.org/10.1073/pnas.1518393112", why: "The original finding." }
+    - { cite: "Cowan, Ruth Schwartz. <i>More Work for Mother</i>. 1983.", q: "Cowan More Work for Mother", why: "Household technology and the persistence of domestic labor." }
+    - { cite: "Crocker, Jennifer, and Connie T. Wolfe. “Contingencies of Self-Worth.” <i>Psychological Review</i> 108, no. 3 (2001): 593–623.", url: "https://doi.org/10.1037/0033-295X.108.3.593", why: "The psychology of worth staked on performance." }
+    - { cite: "Han, Byung-Chul. <i>The Burnout Society</i>. 2010; trans. Erik Butler, 2015.", q: "Byung-Chul Han The Burnout Society", why: "The achievement-subject." }
+    - { cite: "MacIntyre, Alasdair. <i>After Virtue</i>. 1981.", q: "MacIntyre After Virtue", why: "Moral language as fragments; goods internal to practices." }
+    - { cite: "Office of the US Surgeon General. <i>Our Epidemic of Loneliness and Isolation</i>. 2023.", url: "https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf", why: "Public-health advisory on social connection." }
+
+- section: "Communities examined"
+  items:
+    - { cite: "Chen, Ying, et al. “Religious Service Attendance and Deaths Related to Drugs, Alcohol, and Suicide among US Health Care Professionals.” <i>JAMA Psychiatry</i> 77, no. 7 (2020): 737–744.", url: "https://doi.org/10.1001/jamapsychiatry.2020.0175", why: "Attendance and deaths of despair." }
+    - { cite: "Enstrom, James E., and Lester Breslow. “Lifestyle and Reduced Mortality among Active California Mormons, 1980–2004.” <i>Preventive Medicine</i> 46, no. 2 (2008): 133–136.", url: "https://doi.org/10.1016/j.ypmed.2007.07.030", why: "Longevity among active Latter-day Saints." }
+    - { cite: "Hilton, Sterling C., Gilbert W. Fellingham, and Joseph L. Lyon. “Suicide Rates and Religious Commitment in Young Adult Males in Utah.” <i>American Journal of Epidemiology</i> 155, no. 5 (2002): 413–419.", url: "https://doi.org/10.1093/aje/155.5.413", why: "Religious activity and suicide risk." }
+    - { cite: "Kraybill, Donald B., Karen M. Johnson-Weiner, and Steven M. Nolt. <i>The Amish</i>. 2013.", q: "Kraybill Johnson-Weiner Nolt The Amish", why: "The standard scholarly account." }
+
+- section: "Exits"
+  items:
+    - { cite: "Arendt, Hannah. <i>The Human Condition</i>. 1958.", q: "Hannah Arendt The Human Condition", why: "Forgiveness and promising as remedies for irreversibility." }
+    - { cite: "Berry, Wendell. <i>The Unsettling of America</i>. 1977.", q: "Wendell Berry The Unsettling of America", why: "Agriculture, household, and culture as moral questions." }
+    - { cite: "Camus, Albert. <i>The Rebel</i>. 1951; trans. Anthony Bower, 1953.", q: "Camus The Rebel", why: "Rebellion that keeps its limits." }
+    - { cite: "Frankl, Viktor E. <i>Man’s Search for Meaning</i>. 1946.", q: "Man's Search for Meaning Viktor Frankl", why: "Meaning without a verdict." }
+    - { cite: "Havel, Václav. “The Power of the Powerless.” 1978.", q: "Havel The Power of the Powerless", why: "Living within the truth." }
+    - { cite: "Heschel, Abraham Joshua. <i>The Sabbath: Its Meaning for Modern Man</i>. 1951.", q: "Heschel The Sabbath", why: "An architecture of time against total work." }
+    - { cite: "Pieper, Josef. <i>Leisure: The Basis of Culture</i>. 1948.", q: "Josef Pieper Leisure The Basis of Culture", why: "Against the world of total work." }
+    - { cite: "Solzhenitsyn, Aleksandr. <i>The Gulag Archipelago</i>. 1973.", q: "Solzhenitsyn The Gulag Archipelago", why: "The line through every human heart." }
+    - { cite: "Tillich, Paul. <i>The Shaking of the Foundations</i>. 1948.", q: "Tillich The Shaking of the Foundations", why: "Contains the sermon “You Are Accepted.”" }

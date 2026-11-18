@@ -1,54 +1,406 @@
 ---
 layout: default
-title: Start
-kicker: A story in three parts
-heading: You’re already in the <em>middle</em> of the story
-dek: Before you ever thought about it, you inherited a set of feelings about work, worth, and whether you’re okay. They have a history, and the history has an unfinished third act.
+title: Essay
+description: Tracing the Puritan practical syllogism, the inference from a fruitful life to assurance of salvation, across five centuries, and arguing that its modern residue is a search for signs with no one left to grant the verdict.
 ---
 
-<section>
-  <div class="wrap">
-    <span class="num">HOW THIS STARTED</span>
-    <h2>A question about a phrase</h2>
-    <p>This began with a simple question: why do people say “Protestant work ethic”? The answer leads to Max Weber, Calvinist theology, and Benjamin Franklin. But following it carefully turns up a much bigger question underneath:</p>
-    <div class="closing" style="margin:28px 0">What happens to values when the story that justified them dies?</div>
-    <p>And underneath <em>that</em>, a more personal one:</p>
-    <div class="closing" style="margin:28px 0">Where do I look for proof that I’m okay, and is that a good place to look?</div>
-    <p>The work ethic is the clearest example we have of both, because you can trace it across four hundred years. It began as a religious answer to the second question. It outlived the religion. Its feelings are still around, mostly unexplained. If you’ve ever felt guilty for resting or measured your worth by your output, you’re in this story already.</p>
+<div class="masthead">
+  <div class="inner">
+    <div>
+      <div class="kicker">Essay · Version {{ site.version }} · {{ site.version_date }}</div>
+      <h1>The Afterlife of a <i>Calling</i></h1>
+      <p class="sub">Work, worth, and the search for signs from Calvin to the present</p>
+      <div class="meta">About 40 minutes · Six parts · Notes in the margin (tap the numbers on mobile)</div>
+    </div>
+    <figure style="margin:0">
+      <div class="syllogism" id="syllogism" aria-live="polite">
+        <div class="label"><span>The practical syllogism</span><span class="era fade">Contemporary · c. 1970–</span></div>
+        <ol>
+          <li><span class="role">Major premise</span><span class="prop major fade">The <span class="blank" aria-label="blank">______</span> are worthy.</span></li>
+          <li><span class="role">Minor premise</span><span class="prop minor fade">My output, my metrics, my side.</span></li>
+          <li class="concl"><span class="role">Conclusion</span><span class="prop concl-text fade"><span class="pending">Therefore I am … verdict pending.</span></span></li>
+        </ol>
+        <div class="auth fade">Who makes the major premise binding: <b>none identifiable</b></div>
+        <div class="syl-eras" role="group" aria-label="Show the syllogism in a given era">
+          <button type="button" style="--c: var(--e1)">1600s</button>
+          <button type="button" style="--c: var(--e2)">1700s</button>
+          <button type="button" style="--c: var(--e3)">1800s</button>
+          <button type="button" style="--c: var(--e4)">1900s</button>
+          <button type="button" style="--c: var(--e5)">Now</button>
+        </div>
+      </div>
+      <figcaption class="figcap">Figure 1. One argument form in five historical versions. The conclusion people seek stays the same and the evidence changes. The authority that once made the first premise binding gradually disappears.</figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="front">
+  <div class="abstract">
+    <h2>Abstract</h2>
+    <p>Max Weber argued that Calvinist uncertainty about salvation produced a methodical, ascetic way of life that helped form the “spirit” of modern capitalism, and that this way of life outlived the theology behind it. This essay follows not the work ethic itself but the <em>inference</em> that sustained it: the Reformed “practical syllogism,” by which believers reasoned from the fruits of a disciplined life to assurance of their election. Tracing that inference through five eras (Calvinist, Enlightenment, self-made, therapeutic, and contemporary), it argues three things. The conclusion sought, that one is acceptable, has stayed constant. The evidence offered for it has changed. And the authority that once made the major premise binding has disappeared. The result is a search for signs that, by its structure, cannot end. The essay then examines communities that appear protected from this pattern. It finds that protection tracks practice, belonging, and worth that is not earned more closely than it tracks belief as such. It closes by setting out four logically distinct exits from a syllogism with no authority behind it.</p>
+    <p class="keywords"><b>Keywords:</b> Max Weber · Calvinism · practical syllogism · assurance · vocation · secularization · contingent self-worth · deaths of despair · focal practices</p>
+  </div>
+  <nav class="contents" aria-label="Contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#introduction"><span class="n">—</span>Introduction: A moral intensity without a reason</a></li>
+      <li><a href="#syllogism"><span class="n">I</span>The syllogism, 1550–1700</a></li>
+      <li><a href="#secular-premise"><span class="n">II</span>The secular premise, 1730–1920</a></li>
+      <li><a href="#missing-author"><span class="n">III</span>The missing author, 1880–1970</a></li>
+      <li><a href="#open-verdict"><span class="n">IV</span>The open verdict, 1970–present</a></li>
+      <li><a href="#exceptions"><span class="n">V</span>Exceptions as evidence</a></li>
+      <li><a href="#exits"><span class="n">VI</span>Four exits</a></li>
+      <li><a href="#conclusion"><span class="n">—</span>Conclusion</a></li>
+    </ol>
+  </nav>
+</div>
+
+<div class="legend">
+  <div class="box" aria-label="Legend for evidence tags">
+    <div><span class="ev doc">Documented</span><br>Primary sources or settled scholarship.</div>
+    <div><span class="ev con">Contested</span><br>Serious, ongoing scholarly disagreement.</div>
+    <div><span class="ev cor">Correlational</span><br>A measured association; causation not established.</div>
+    <div><span class="ev syn">Synthesis</span><br>This essay’s own interpretive argument.</div>
+  </div>
+</div>
+
+<article class="essay">
+<div class="col">
+
+<section id="introduction">
+  <h2>Introduction: A moral intensity without a reason</h2>
+  <span class="dates">The puzzle, the thesis, the method</span>
+
+  <p class="dropcap">Many people in wealthy, largely secular societies experience idleness as faintly culpable, present busyness as a credential, and read professional success as a verdict on the self. Few of them hold any doctrine that would justify these attitudes. The attitudes are strong, and the reasons for them are mostly missing. That gap is the subject of this essay.</p>
+
+  <p><span class="ev cor">Correlational</span> The attitudes are measurable. In a series of studies published in 2017, consumer researchers found that Americans increasingly read busyness and a lack of leisure as signals of high status, a reversal of the older association between leisure and rank.<label for="n1" class="sn" aria-label="Note 1"></label><input type="checkbox" id="n1" class="sn-t"><span class="sidenote">Silvia Bellezza, Neeru Paharia, and Anat Keinan, “Conspicuous Consumption of Time: When Busyness and Lack of Leisure Time Become a Status Symbol,” <i>Journal of Consumer Research</i> 44, no. 1 (2017): 118–138, <a href="https://doi.org/10.1093/jcr/ucw076">doi:10.1093/jcr/ucw076</a>.</span> Psychologists studying “contingencies of self-worth” have shown that people differ systematically in the domains on which their self-esteem depends, and that worth staked on external performance is associated with greater stress and instability.<label for="n2" class="sn" aria-label="Note 2"></label><input type="checkbox" id="n2" class="sn-t"><span class="sidenote">Jennifer Crocker and Connie T. Wolfe, “Contingencies of Self-Worth,” <i>Psychological Review</i> 108, no. 3 (2001): 593–623, <a href="https://doi.org/10.1037/0033-295X.108.3.593">doi:10.1037/0033-295X.108.3.593</a>; Jennifer Crocker and Lora E. Park, “The Costly Pursuit of Self-Esteem,” <i>Psychological Bulletin</i> 130, no. 3 (2004): 392–414, <a href="https://doi.org/10.1037/0033-2909.130.3.392">doi:10.1037/0033-2909.130.3.392</a>.</span></p>
+
+  <p>The classic explanation is Max Weber’s. In <i>The Protestant Ethic and the Spirit of Capitalism</i> (1904–05, revised 1920), Weber argued that a methodical, ascetic way of life arose among Reformed Protestants for religious reasons, helped build the modern economic order, and then persisted after its religious reasons had faded.</p>
+
+  <div class="quote">
+    <blockquote>The Puritan wanted to work in a calling; we are forced to do so.</blockquote>
+    <cite>Max Weber, <i>The Protestant Ethic and the Spirit of Capitalism</i>, trans. Talcott Parsons (London: Allen &amp; Unwin, 1930), ch. 5, 181</cite>
+  </div>
+
+  <p>Weber’s account is usually summarized as a story of residue: the religion left, the habits stayed. Charles Taylor has warned against such “subtraction stories,” which treat modernity as what remains once belief has been removed. Taylor argues instead that new frameworks of meaning were actively constructed in its place.<label for="n3" class="sn" aria-label="Note 3"></label><input type="checkbox" id="n3" class="sn-t"><span class="sidenote">Charles Taylor, <i>A Secular Age</i> (Cambridge, MA: Belknap Press of Harvard University Press, 2007), 22. Taylor defines subtraction stories as accounts of modernity that explain it “by human beings having lost, or sloughed off, or liberated themselves from certain earlier, confining horizons, or illusions.”</span> This essay takes that warning seriously. It does not follow the habits. It follows something narrower and more precise: the <em>inference</em> that once justified the habits, and the successive attempts to keep that inference running.</p>
+
+  <div class="finding">
+    <span class="h">Thesis</span>
+    <p>The Reformed “practical syllogism,” the inference from the fruits of a disciplined life to assurance of election, has kept its logical form across five centuries while its contents changed. The conclusion sought (that one is acceptable) has stayed constant. The minor premise, the evidence offered, has been repeatedly replaced. The major premise has gradually lost the authority that once made it binding. In its contemporary form the inference has evidence and a desired conclusion but no recognized judge, so the search for signs it organizes cannot, by its structure, come to rest.</p>
+  </div>
+
+  <p><span class="ev syn">Synthesis</span> Three limits apply. First, the essay is a genealogy of an argument form, not a causal history of capitalism. Weber’s economic thesis is contested, and nothing here depends on it.<label for="n4" class="sn" aria-label="Note 4"></label><input type="checkbox" id="n4" class="sn-t"><span class="sidenote">The main lines of criticism are summarized on the <a href="./historiography.html">Historiography</a> page.</span> Second, its scope is mainly the Anglo-American Protestant lineage that Weber himself studied, so its claims about “modern” experience should be read with that boundary in mind. Third, the essay uses empirical data to illustrate and test its argument, not as proof of it. Each substantive claim is tagged by evidential status; the legend appears above.</p>
+</section>
+
+<section id="syllogism">
+  <h2><span class="rn">I.</span>The syllogism</h2>
+  <span class="dates">Calvinist · c. 1550–1700</span>
+
+  <div class="syl-card" style="--c: var(--e1)">
+    <div class="row"><span class="role">Major</span><span>The elect bear fruit in their calling.</span></div>
+    <div class="row"><span class="role">Minor</span><span>My calling bears fruit.</span></div>
+    <div class="row concl"><span class="role">Conclusion</span><span>Therefore I am, in all likelihood, elect.</span></div>
+    <div class="auth">Authority: <b>God, by an eternal decree</b></div>
+  </div>
+
+  <h3>Vocation and decree</h3>
+  <p><span class="ev doc">Documented</span> The story begins with two Reformation teachings. From Martin Luther came the idea of vocation (<i>Beruf</i>): ordinary work in the world, done in faith, was service to God, no lower than the life of a monk. Luther also taught that a person stands right with God by grace received through faith, not by works performed. From John Calvin, whose <i>Institutes of the Christian Religion</i> appeared in 1536 and reached its final Latin form in 1559, came a rigorous doctrine of predestination. The Westminster Confession of 1646, the standard statement of English-speaking Calvinism, put it this way:</p>
+
+  <div class="quote">
+    <blockquote>By the decree of God, for the manifestation of His glory, some men and angels are predestinated unto everlasting life; and others foreordained to everlasting death.</blockquote>
+    <cite>Westminster Confession of Faith (1646), ch. III, art. 3</cite>
+  </div>
+
+  <p>Under this doctrine, works could not earn salvation, the church could not dispense it, and the decree itself was hidden. Weber thought the psychological consequence was severe:</p>
+
+  <div class="quote">
+    <blockquote>In its extreme inhumanity this doctrine must above all have had one consequence for the life of a generation which surrendered to its magnificent consistency. That was a feeling of unprecedented inner loneliness of the single individual.</blockquote>
+    <cite>Weber, <i>Protestant Ethic</i>, ch. 4, 104</cite>
+  </div>
+
+  <h3>From cause to sign</h3>
+  <p><span class="ev doc">Documented</span> Pastoral practice could not leave believers in that state. Reformed theologians after Calvin, beginning with Theodore Beza in Geneva and continuing in English Puritans such as William Perkins, taught that while works could not <em>cause</em> election, they could serve as <em>evidence</em> of it. Later theologians named this reasoning the practical syllogism (<i>syllogismus practicus</i>): those whom God has elected bring forth the fruits of faith; I bring forth such fruits; therefore I may conclude that I am elect. Weber’s own term is <i>Bewährung</i>, proof through conduct. Good works, he writes, are “indispensable as a sign of election… the technical means, not of purchasing salvation, but of getting rid of the fear of damnation.”<label for="n5" class="sn" aria-label="Note 5"></label><input type="checkbox" id="n5" class="sn-t"><span class="sidenote">Weber, <i>Protestant Ethic</i>, ch. 4, 115; Weber names Beza in the text (110) and quotes his <i>De praedestinationis doctrina</i> (1584) in ch. 4, n. 52. The label <i>syllogismus practicus</i> does not appear in Parsons’s translation; it belongs to later theological discussion (e.g., Wilhelm Niesel, “Syllogismus practicus?,” 1933). On its theological development see R. T. Kendall, <i>Calvin and English Calvinism to 1649</i> (Oxford: Oxford University Press, 1979), and Joel R. Beeke, <i>The Quest for Full Assurance</i> (Edinburgh: Banner of Truth, 1999).</span> Believers were further told that it was a duty to consider oneself chosen, and that intense worldly activity was the surest means of dispelling doubt.</p>
+
+  <p><span class="ev syn">Synthesis</span> The logical shape of this inference explains the behavior that followed. The conclusion is only <em>probable</em>. One fruitful year does not settle eternity, and a lapse reopens the question. A probable verdict must be continuously renewed, so the evidence must be continuously produced. That is why the resulting conduct was <em>methodical</em> and not merely diligent: the syllogism had to be re-run every day. Systematic self-examination, diaries of conduct, and accounting for time are what one would expect from people maintaining a running case for their own election.</p>
+
+  <h3>The pastor’s voice</h3>
+  <p><span class="ev doc">Documented</span> Weber’s richest source was not Calvin but the English Puritan minister Richard Baxter, whose <i>Christian Directory</i> (1673) offered practical guidance for daily life. Baxter warned against the love of wealth, yet he treated a refusal to pursue lawful gain as a failure of stewardship:</p>
+
+  <div class="quote">
+    <blockquote>If God show you a way in which you may lawfully get more than in another way (without wrong to your soul or to any other), if you refuse this, and choose the less gainful way, you cross one of the ends of your calling, and you refuse to be God’s steward, and to accept His gifts and use them for Him when He requireth it: you may labour to be rich for God, though not for the flesh and sin.</blockquote>
+    <cite>Richard Baxter, <i>A Christian Directory</i> (1673), as quoted in Weber, <i>Protestant Ethic</i>, ch. 5, 162</cite>
+  </div>
+
+  <p>Weber summarizes the corresponding view of time: wasting it becomes “the first and in principle the deadliest of sins.”<label for="n6" class="sn" aria-label="Note 6"></label><input type="checkbox" id="n6" class="sn-t"><span class="sidenote">Weber, <i>Protestant Ethic</i>, ch. 5, 157: “Waste of time is thus the first and in principle the deadliest of sins.” The sentence is Weber’s summary of Baxter, not a quotation from Baxter.</span> Combine an obligation to earn with a prohibition on enjoyment and, as Weber observed, capital accumulates almost automatically.</p>
+
+  <div class="objection">
+    <span class="h">Contested · Objection and reply</span>
+    <p>Did this religious psychology actually cause capitalist development? The evidence is mixed. Capitalist institutions flourished earlier in Catholic Italy and Flanders. Becker and Woessmann attribute the Protestant economic advantage in nineteenth-century Prussia largely to literacy. Cantoni finds no effect of Protestantism on city growth in the German lands from 1300 to 1900.<label for="n7" class="sn" aria-label="Note 7"></label><input type="checkbox" id="n7" class="sn-t"><span class="sidenote">Sascha O. Becker and Ludger Woessmann, “Was Weber Wrong? A Human Capital Theory of Protestant Economic History,” <i>Quarterly Journal of Economics</i> 124, no. 2 (2009): 531–596, <a href="https://doi.org/10.1162/qjec.2009.124.2.531">doi:10.1162/qjec.2009.124.2.531</a>; Davide Cantoni, “The Economic Effects of the Protestant Reformation: Testing the Weber Hypothesis in the German Lands,” <i>Journal of the European Economic Association</i> 13, no. 4 (2015): 561–598, <a href="https://doi.org/10.1111/jeea.12117">doi:10.1111/jeea.12117</a>.</span> This essay’s argument does not require the economic thesis. It requires only that the inference existed, was taught, and shaped conduct, all of which is well documented. Weber himself disclaimed any wish “to substitute for a one-sided materialistic an equally one-sided spiritualistic causal interpretation of culture and of history.”<label for="n8" class="sn" aria-label="Note 8"></label><input type="checkbox" id="n8" class="sn-t"><span class="sidenote">Weber, <i>Protestant Ethic</i>, ch. 5, 183.</span></p>
   </div>
 </section>
 
-<section>
-  <div class="wrap">
-    <span class="num">THE STORY</span>
-    <h2>Three parts</h2>
-    <p>Start with the <a href="./prologue.html">Prologue</a> if you want to know why a question like this opens up so fast, or jump into Part I.</p>
+<section id="secular-premise">
+  <h2><span class="rn">II.</span>The secular premise</h2>
+  <span class="dates">Enlightenment and self-made · c. 1730–1920</span>
+
+  <div class="syl-card" style="--c: var(--e2)">
+    <div class="row"><span class="role">Major</span><span>The industrious and frugal prosper.</span></div>
+    <div class="row"><span class="role">Minor</span><span>I am industrious and frugal, and I prosper.</span></div>
+    <div class="row concl"><span class="role">Conclusion</span><span>Therefore I am of good character.</span></div>
+    <div class="auth">Authority: <b>Providence, read through reason and results</b></div>
   </div>
-  <div class="wide">
-    <div class="acts">
-      <div class="act" style="--c: var(--e1)">
-        <div class="lbl">Part I</div><h3>How we got here</h3>
-        <p>A theology leaves people unsure whether they’re saved. They look for signs, and disciplined work becomes the main sign. The habit outlives the theology, and new reasons replace the old ones.</p>
-        <ul><li><a href="./mechanism.html">1 · The anxiety comes from not knowing</a></li><li><a href="./secularization.html">2 · The habit outlives the theology</a></li><li><a href="./substitutes.html">3 · What fills the space</a></li></ul>
-      </div>
-      <div class="act here" style="--c: var(--e5)">
-        <div class="lbl">Part II <span class="pin">You are here</span></div><h3>Where you are</h3>
-        <p>The shared story has fractured. Moral language survives in fragments. The search for signs never stopped; it moved to productivity, metrics, and being on the right side.</p>
-        <ul><li><a href="./fracture.html">1 · Losing a shared moral grammar</a></li><li><a href="./signs.html">2 · The search for signs never ended</a></li><li><a href="./hearth.html">3 · The garden and the hearth</a></li></ul>
-      </div>
-      <div class="act" style="--c: var(--e4)">
-        <div class="lbl">Part III</div><h3>What comes next</h3>
-        <p>Neither going back nor finding a new idol. What thinkers who survived the twentieth century proposed as sane ways through, down to tending something alive.</p>
-        <ul><li><a href="./ways-through.html">Seven ways through</a></li></ul>
-      </div>
-    </div>
+
+  <h3>Franklin’s ledger</h3>
+  <p><span class="ev doc">Documented</span> Weber chose Benjamin Franklin as his exemplar of the “spirit of capitalism” precisely because Franklin showed the ethic already loosened from its theology. Raised in a Puritan household in Boston, Franklin records in his <i>Autobiography</i> that as a youth he “soon became a thorough Deist.” He kept a belief in a Creator and in providence, and he held that “the most acceptable service of God was the doing good to man.” In 1790 he wrote that the moral system of Jesus was “the best the world ever saw or is likely to see,” while confessing “some doubts as to his divinity.”<label for="n9" class="sn" aria-label="Note 9"></label><input type="checkbox" id="n9" class="sn-t"><span class="sidenote">Benjamin Franklin, <i>Autobiography</i>, pt. 1 (written 1771) and pt. 2 (written 1784); Franklin to Ezra Stiles, 9 March 1790, in <i>The Writings of Benjamin Franklin</i>, ed. Albert Henry Smyth, vol. 10 (New York: Macmillan, 1907), 83–85.</span></p>
+
+  <p>The practical syllogism survives in Franklin almost literally. His project of “moral perfection” assigned a page to each of thirteen virtues, with a grid on which he marked each day’s faults, an evidence ledger kept daily. What changed is the major premise. The verdict no longer concerns election; it concerns character, and the evidence is read through results.</p>
+
+  <div class="quote">
+    <blockquote>Remember that Time is Money. He that can earn Ten Shillings a Day by his Labour, and goes abroad, or sits idle one half of that Day, tho’ he spends but Sixpence during his Diversion or Idleness, ought not to reckon That the only Expence; he has really spent or rather thrown away Five Shillings besides.</blockquote>
+    <cite>Benjamin Franklin, “Advice to a Young Tradesman, Written by an Old One” (1748), <a href="https://founders.archives.gov/documents/Franklin/01-03-02-0130">Founders Online</a>. Weber quotes a later printing with modernized spelling.</cite>
   </div>
-  <div class="wrap">
-    <div class="source">
-      <blockquote>The Puritan wanted to work in a calling; we are forced to do so.</blockquote>
-      <cite>Max Weber, <em>The Protestant Ethic and the Spirit of Capitalism</em>, ch. 5 (trans. Parsons, 1930)</cite>
-      <div class="gloss"><p>Part I in one sentence. A behavior that began as a free religious response became, once it had built an economy, a requirement nobody chose. Part II asks what that feels like from the inside. Part III asks whether a calling can be recovered without the cage.</p></div>
-    </div>
-    <p>The appendix covers the <a href="./criticisms.html">scholarly criticisms</a> of Weber, a <a href="./timeline.html">visual timeline</a>, and a <a href="./reading.html">reading list</a> with links to every book.</p>
+
+  <p>Weber’s comment on such passages is the hinge of his book. The duty to acquire money methodically remained a <em>duty</em>, binding in itself, even though its original justification was gone:</p>
+
+  <div class="quote">
+    <blockquote>The summum bonum of this ethic, the earning of more and more money, combined with the strict avoidance of all spontaneous enjoyment of life, is above all completely devoid of any eudaemonistic, not to say hedonistic, admixture. It is thought of so purely as an end in itself, that from the point of view of the happiness of, or utility to, the single individual, it appears entirely transcendental and absolutely irrational.</blockquote>
+    <cite>Weber, <i>Protestant Ethic</i>, ch. 2, 53</cite>
+  </div>
+
+  <h3>The self-made man</h3>
+
+  <div class="syl-card" style="--c: var(--e3)">
+    <div class="row"><span class="role">Major</span><span>The able rise by their own effort.</span></div>
+    <div class="row"><span class="role">Minor</span><span>I have risen by my own effort.</span></div>
+    <div class="row concl"><span class="role">Conclusion</span><span>Therefore I have made something of myself.</span></div>
+    <div class="auth">Authority: <b>The market and public opinion</b></div>
+  </div>
+
+  <p><span class="ev doc">Documented</span> In nineteenth-century America the premise acquired a new author: the judgment of a commercial and democratic public. Alexis de Tocqueville observed that religion in America “takes no direct part in the government of society, but it must nevertheless be regarded as the foremost of the political institutions of that country,” and that “Americans of all ages, all conditions, and all dispositions, constantly form associations.”<label for="n10" class="sn" aria-label="Note 10"></label><input type="checkbox" id="n10" class="sn-t"><span class="sidenote">Alexis de Tocqueville, <i>Democracy in America</i>, trans. Henry Reeve, vol. 1, pt. 2, ch. 9, and vol. 2, pt. 2, ch. 5.</span> The moral weight of the old ethic was spread across churches, lodges, and public opinion. Frederick Douglass delivered his lecture “Self-Made Men” many times, from a first tour of Illinois and Wisconsin in 1859 to the 1890s. Horatio Alger’s novels, beginning with <i>Ragged Dick</i> (1868), popularized the plot of rise through “pluck,” although Alger’s heroes in fact usually depend on luck and a patron. Andrew Carnegie’s 1889 essay later known as “The Gospel of Wealth” recast Baxter’s steward for an industrial age: the rich man holds his fortune in trust, and “the man who dies thus rich dies disgraced.”<label for="n11" class="sn" aria-label="Note 11"></label><input type="checkbox" id="n11" class="sn-t"><span class="sidenote">Andrew Carnegie, “Wealth,” <i>North American Review</i> 148, no. 391 (June 1889): 653–664. Carnegie frames the line as the future verdict of the public: “Of such as these the public verdict will then be: ‘The man who dies thus rich dies disgraced.’”</span></p>
+
+  <p><span class="ev syn">Synthesis</span> This is where Taylor’s correction matters. The secular premise was not simply what remained of the Calvinist one. It was rebuilt around a new authority, the moral order of mutual benefit that Taylor identifies as the backbone of modern social imagination.<label for="n12" class="sn" aria-label="Note 12"></label><input type="checkbox" id="n12" class="sn-t"><span class="sidenote">Taylor, <i>A Secular Age</i>, ch. 4, on the “modern moral order”; see also Taylor, <i>Modern Social Imaginaries</i> (Durham, NC: Duke University Press, 2004).</span> For a time, that authority was strong enough to grant verdicts. A person who rose and gave back was recognized as having made something of himself.</p>
+
+  <p>Two exclusions should be noted. The self-made ideal was explicitly masculine, and it rested on household labor, largely women’s, that it did not count. It also judged success by visible rise, which made its verdicts available only to those positioned to rise. Both limits will return in Part IV.</p>
+</section>
+
+<section id="missing-author">
+  <h2><span class="rn">III.</span>The missing author</h2>
+  <span class="dates">Therapeutic and ideological · c. 1880–1970</span>
+
+  <h3>Nietzsche’s objection</h3>
+  <p><span class="ev doc">Documented</span> Friedrich Nietzsche saw the instability in this arrangement before it became general. In <i>The Gay Science</i> (1882) his madman announces the death of God to a marketplace of people who already do not believe, and asks what they have done: “Is not the greatness of this deed too great for us? Must we ourselves not become gods simply to appear worthy of it?”<label for="n13" class="sn" aria-label="Note 13"></label><input type="checkbox" id="n13" class="sn-t"><span class="sidenote">Friedrich Nietzsche, <i>The Gay Science</i>, §125, trans. Walter Kaufmann (New York: Vintage, 1974).</span> Seven years later he named the specific error of those who abandon belief while keeping its morality:</p>
+
+  <div class="quote">
+    <blockquote>They are rid of the Christian God and now believe all the more firmly that they must cling to Christian morality… When one gives up the Christian faith, one pulls the right to Christian morality out from under one’s feet.</blockquote>
+    <cite>Nietzsche, <i>Twilight of the Idols</i> (1889), “Skirmishes of an Untimely Man,” §5, trans. Kaufmann</cite>
+  </div>
+
+  <p><span class="ev syn">Synthesis</span> In the terms of this essay, Nietzsche’s point is logical. A major premise binds only if something authorizes it. Remove the authority, and the premise survives only as habit, which is enough to drive conduct but not enough to deliver a verdict.</p>
+
+  <h3>Weber’s cage and Weber’s gods</h3>
+  <p>Weber reached a similar conclusion through sociology. The ascetic conduct that began as a free religious choice had built an economic order that now required it:</p>
+
+  <div class="quote">
+    <blockquote>In Baxter’s view the care for external goods should only lie on the shoulders of the “saint like a light cloak, which can be thrown aside at any moment.” But fate decreed that the cloak should become an iron cage.</blockquote>
+    <cite>Weber, <i>Protestant Ethic</i>, ch. 5, 181. Parsons’s “iron cage” renders Weber’s <i>stahlhartes Gehäuse</i>, more literally a “shell as hard as steel.”</cite>
+  </div>
+
+  <p>In his 1917 lecture “Science as a Vocation,” Weber described the condition that followed the “disenchantment of the world.” Values would not vanish. They would multiply and compete: “Many old gods ascend from their graves; they are disenchanted and hence take the form of impersonal forces. They strive to gain power over our lives and again they resume their eternal struggle with one another.”<label for="n14" class="sn" aria-label="Note 14"></label><input type="checkbox" id="n14" class="sn-t"><span class="sidenote">Max Weber, “Science as a Vocation,” in <i>From Max Weber: Essays in Sociology</i>, trans. and ed. H. H. Gerth and C. Wright Mills (New York: Oxford University Press, 1946), 149; “disenchantment of the world” at 155. Delivered in Munich on 7 November 1917; published 1919.</span> This is the condition of a premise with many claimants and no single author.</p>
+
+  <h3>Three candidate authors</h3>
+  <p><span class="ev syn">Synthesis</span> The twentieth century can be read as a series of attempts to supply the missing authority. Three stand out.</p>
+
+  <p><strong>The self.</strong> Ayn Rand kept the old reverence for productive work and transferred the authority to the individual’s own rational judgment: “Productive work is the central purpose of a rational man’s life, the central value that integrates and determines the hierarchy of all his other values.”<label for="n15" class="sn" aria-label="Note 15"></label><input type="checkbox" id="n15" class="sn-t"><span class="sidenote">Ayn Rand, “The Objectivist Ethics” (1961), in <i>The Virtue of Selfishness</i> (New York: Signet, 1964).</span> The Puritan worked for God and feared wealth. Rand’s producer works for himself and enjoys it. The reverence is the same and the authority is inverted.</p>
+
+  <div class="syl-card" style="--c: var(--e4)">
+    <div class="row"><span class="role">Major</span><span>The healthy self is a fulfilled self.</span></div>
+    <div class="row"><span class="role">Minor</span><span>I feel fulfilled.</span></div>
+    <div class="row concl"><span class="role">Conclusion</span><span>Therefore I am well.</span></div>
+    <div class="auth">Authority: <b>The self, assisted by experts</b></div>
+  </div>
+
+  <p><strong>Feeling.</strong> Philip Rieff traced a more widespread successor: the therapeutic. “Religious man was born to be saved; psychological man is born to be pleased.”<label for="n16" class="sn" aria-label="Note 16"></label><input type="checkbox" id="n16" class="sn-t"><span class="sidenote">Philip Rieff, <i>The Triumph of the Therapeutic: Uses of Faith after Freud</i> (New York: Harper &amp; Row, 1966), ch. 1.</span> Here the verdict is delivered by inner experience, with the help of experts, and the evidence is a sense of well-being. The difficulty is that feeling is an unstable judge. It can confirm the conclusion today and withdraw it tomorrow.</p>
+
+  <p><strong>History.</strong> Eric Voegelin argued that the mass political movements of the century had the structure of religions. They took the Christian expectation of final redemption, which Christianity placed beyond history, and sought to bring it about within history. In his words, a “Christian transcendental fulfillment becomes immanentized,” an “immanentist hypostasis of the eschaton” that he called a theoretical fallacy.<label for="n17" class="sn" aria-label="Note 17"></label><input type="checkbox" id="n17" class="sn-t"><span class="sidenote">Eric Voegelin, <i>The New Science of Politics</i> (Chicago: University of Chicago Press, 1952), ch. 4. The slogan “Don’t immanentize the eschaton!” is not Voegelin’s; it was popularized by William F. Buckley Jr. and the Young Americans for Freedom in the 1960s.</span> On this model the verdict is delivered by the future, and the evidence is one’s position relative to its arrival: the right side of history.</p>
+
+  <p>Paul Tillich supplied a diagnosis that covers all three. Faith, he wrote, is “the state of being ultimately concerned.” When the object of ultimate concern is something finite treated as if it were infinite, the result is idolatry. The idol cannot deliver what is asked of it, and it demands sacrifices that grow without limit.<label for="n18" class="sn" aria-label="Note 18"></label><input type="checkbox" id="n18" class="sn-t"><span class="sidenote">Paul Tillich, <i>Dynamics of Faith</i> (New York: Harper &amp; Row, 1957), ch. 1, first sentence: “Faith is the state of being ultimately concerned.”</span></p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Table 1. Candidate authorities for the major premise, and how each fails as a judge.</caption>
+      <thead><tr><th>Authority</th><th>Evidence it accepts</th><th>Verdict it grants</th><th>Characteristic failure</th></tr></thead>
+      <tbody>
+        <tr><td>God (Calvinist)</td><td>Fruits of a methodical life</td><td>Probable election</td><td>Only probable; must be renewed</td></tr>
+        <tr><td>Providence and results (Franklin)</td><td>Virtue kept; prosperity</td><td>Good character</td><td>Depends on outcomes outside one’s control</td></tr>
+        <tr><td>Market and public (self-made)</td><td>Visible rise</td><td>Having made something of oneself</td><td>Available only to those positioned to rise</td></tr>
+        <tr><td>The self (Rand)</td><td>Productive achievement</td><td>Self-esteem</td><td>The judge is also the defendant</td></tr>
+        <tr><td>Feeling (therapeutic)</td><td>Sense of fulfillment</td><td>Wellness</td><td>Unstable; revocable daily</td></tr>
+        <tr><td>History (political religion)</td><td>Being on the right side</td><td>Collective vindication</td><td>Defers the verdict to a future that keeps receding</td></tr>
+      </tbody>
+    </table>
   </div>
 </section>
+
+<section id="open-verdict">
+  <h2><span class="rn">IV.</span>The open verdict</h2>
+  <span class="dates">Contemporary · c. 1970–present</span>
+
+  <div class="syl-card" style="--c: var(--e5)">
+    <div class="row"><span class="role">Major</span><span>The <span class="blank" aria-label="blank">______</span> are worthy.</span></div>
+    <div class="row"><span class="role">Minor</span><span>My output, my metrics, my side.</span></div>
+    <div class="row concl"><span class="role">Conclusion</span><span class="pending">Therefore I am … verdict pending.</span></div>
+    <div class="auth">Authority: <b>none identifiable</b></div>
+  </div>
+
+  <h3>Fragments of a moral grammar</h3>
+  <p><span class="ev con">Contested</span> Alasdair MacIntyre’s <i>After Virtue</i> (1981) opens with a thought experiment. Imagine that a catastrophe destroys the natural sciences and that later generations recover fragments: half-burnt pages, parts of theories, technical vocabulary used without the practices that gave it meaning. MacIntyre’s claim is that modern moral language is in that condition. Terms like virtue, duty, rights, and desert descend from traditions whose foundations are no longer shared, so arguments conducted in those terms cannot be settled.</p>
+
+  <div class="quote">
+    <blockquote>The most striking feature of contemporary moral utterance is that so much of it is used to express disagreements; and the most striking feature of the debates in which these disagreements are expressed is their interminable character.</blockquote>
+    <cite>Alasdair MacIntyre, <i>After Virtue</i> (1981), ch. 2</cite>
+  </div>
+
+  <p><span class="ev syn">Synthesis</span> In the terms of this essay, interminable moral debate and the interminable search for signs are the same phenomenon at two scales. A society whose premises have no common author cannot settle its arguments, and a person whose premise has no author cannot settle their case.</p>
+
+  <p>The oldest image of this condition is Babel. Read closely, Genesis 11 does not describe diversity as the problem. It describes a monoculture: “the whole earth was of one language, and of one speech.” Its members resolve to build a tower “whose top may reach unto heaven” and to “make us a name.” The confusion of languages is the result of that self-glorifying project, not its cause. The Christian scriptures answer Babel at Pentecost, where a crowd of many nations finds that “every man heard them speak in his own language” (Acts 2:6). The remedy is understanding across languages, not a return to one. If Babel is an image for anything here, it is the loss of a shared <em>moral</em> grammar, not of cultural sameness.</p>
+
+  <h3>The achievement-subject</h3>
+  <p><span class="ev con">Contested</span> Byung-Chul Han’s <i>The Burnout Society</i> (German 2010; English 2015) describes the contemporary form of the syllogism from the inside. The disciplinary society of the past said “you must.” Achievement society says “you can,” and its subject is driven not by an external authority but by itself. “The exploiter is simultaneously the exploited.”<label for="n19" class="sn" aria-label="Note 19"></label><input type="checkbox" id="n19" class="sn-t"><span class="sidenote">Byung-Chul Han, <i>The Burnout Society</i>, trans. Erik Butler (Stanford: Stanford University Press, 2015), ch. “Beyond Disciplinary Society.” The passage continues: “Excess work and performance escalate into auto-exploitation. This is more efficient than allo-exploitation, for the feeling of freedom attends it… Perpetrator and victim can no longer be distinguished.”</span> Han reads burnout and depression as the illnesses of a self that has become both judge and defendant, which is the characteristic failure of the self-as-authority in Table 1.</p>
+
+  <p><span class="ev doc">Documented</span> In 2019 the World Health Organization included burn-out in the eleventh revision of the International Classification of Diseases as an “occupational phenomenon,” not a medical condition.<label for="n20" class="sn" aria-label="Note 20"></label><input type="checkbox" id="n20" class="sn-t"><span class="sidenote">World Health Organization, “Burn-out an ‘occupational phenomenon’: International Classification of Diseases,” 28 May 2019, <a href="https://www.who.int/news/item/28-05-2019-burn-out-an-occupational-phenomenon-international-classification-of-diseases">who.int</a>.</span> The busyness-as-status findings mentioned in the Introduction belong here too. Leisure used to signal rank; now its absence does.</p>
+
+  <h3 id="household">The household</h3>
+  <p><span class="ev doc">Documented</span> A further change concerns the setting in which the syllogism ran. For most of history the household was a place of production, worship, and care for living things. Genesis gives the first human task as tending a garden, “to dress it and to keep it” (2:15). The first verb, Hebrew <i>ʿāḇaḏ</i>, is also used for the service of God, as in Exodus 3:12, “ye shall serve God upon this mountain”; toil (“in the sweat of thy face shalt thou eat bread,” 3:19) comes only after the fall. Roman households kept a <i>lararium</i>, a shrine to the household gods, and Pompeian houses commonly had gardens. Benedictine monasteries put labor and prayer on the same daily schedule. Around 1800, somewhere between three-quarters and nine-tenths of the American labor force farmed; by 2017 the farm share of employment was 1.6 percent.<label for="n21" class="sn" aria-label="Note 21"></label><input type="checkbox" id="n21" class="sn-t"><span class="sidenote">On Roman domestic religion, see Harriet I. Flower, <i>The Dancing Lares and the Serpent in the Garden</i> (Princeton: Princeton University Press, 2017). On farm employment, see Stanley Lebergott’s historical estimates and Sun Ling Wang, Robert A. Hoppe, and Thomas Hertz, <i>Farm Labor, Human Capital, and Agricultural Productivity in the United States</i>, USDA ERS Report 302 (2022), <a href="https://www.ers.usda.gov/publications/pub-details?pubid=103266">ers.usda.gov</a>.</span></p>
+
+  <p><span class="ev con">Contested</span> The philosopher Albert Borgmann argued that modern technology follows a “device paradigm”: it delivers a commodity, such as warmth, while hiding the labor, skill, and social relations its production once required. His example is the replacement of the hearth, which had to be tended and around which a household gathered, by central heating, which asks nothing and gathers no one. He points out that the Latin word for hearth is <i>focus</i>, and he proposes “focal practices” as a countermeasure.<label for="n22" class="sn" aria-label="Note 22"></label><input type="checkbox" id="n22" class="sn-t"><span class="sidenote">Albert Borgmann, <i>Technology and the Character of Contemporary Life: A Philosophical Inquiry</i> (Chicago: University of Chicago Press, 1984), esp. chs. 9 and 23.</span></p>
+
+  <div class="objection">
+    <span class="h">Objection and reply</span>
+    <p>Nostalgia for the hearth tends to forget who tended it. The historian Ruth Schwartz Cowan showed that household technology in the twentieth century did not reduce the hours women spent on housework so much as raise standards and shift the work’s content.<label for="n23" class="sn" aria-label="Note 23"></label><input type="checkbox" id="n23" class="sn-t"><span class="sidenote">Ruth Schwartz Cowan, <i>More Work for Mother: The Ironies of Household Technology from the Open Hearth to the Microwave</i> (New York: Basic Books, 1983).</span> Subsistence agriculture, likewise, was mostly toil, not tending. The argument here does not claim that the pre-industrial household was better. It claims that it supplied daily obligations to living things that operate on schedules no one controls, a kind of activity whose worth lies in the doing rather than in what it proves. That kind of activity is now optional and therefore rare.</p>
+  </div>
+
+  <h3 id="evidence-summary">What the data show, and what they do not</h3>
+  <p><span class="ev cor">Correlational</span> If the inference has lost its author, one would expect signs of strain in exactly the places where the older authorities used to operate: religious belonging, community, and the meaning of work. The following series are consistent with that expectation. They are also consistent with other explanations.</p>
+
+  <div class="table-wrap">
+    <table>
+      <caption>Table 2. Selected indicators. Sources in the notes and on the <a href="./evidence.html">Evidence</a> page.</caption>
+      <thead><tr><th>Indicator</th><th>Finding</th></tr></thead>
+      <tbody>
+        <tr><td>Religious affiliation</td><td>29% of US adults are religiously unaffiliated (Pew, 2023–24), up from 16% in 2007. The General Social Survey put the share near 7% in 1991.</td></tr>
+        <tr><td>Religious membership</td><td>US membership in a church, synagogue, or mosque fell to 47% in 2020, below half for the first time in Gallup’s eight decades of measurement.</td></tr>
+        <tr><td>“Deaths of despair”</td><td>Rising midlife mortality from drugs, alcohol, and suicide, concentrated among Americans without a four-year degree. US life expectancy declined after 2014, initially reported as three consecutive annual falls (2015–2017); revised data show 2016 flat.</td></tr>
+        <tr><td>Social connection</td><td>The US Surgeon General’s 2023 advisory described an “epidemic of loneliness and isolation.”</td></tr>
+        <tr><td>Religious practice</td><td>In two large cohorts of US health professionals, attending religious services at least weekly was associated with a 68% lower risk (women) and a 33% lower risk (men) of death from drugs, alcohol, or suicide, compared with never attending. Observational data.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><label for="n24" class="sn" aria-label="Note 24"></label><input type="checkbox" id="n24" class="sn-t"><span class="sidenote">Gallup, “U.S. Church Membership Falls Below Majority for First Time,” 29 March 2021, <a href="https://news.gallup.com/poll/341963/church-membership-falls-below-majority-first-time.aspx">news.gallup.com</a>; Anne Case and Angus Deaton, “Rising Morbidity and Mortality in Midlife among White Non-Hispanic Americans in the 21st Century,” <i>PNAS</i> 112, no. 49 (2015): 15078–15083, <a href="https://doi.org/10.1073/pnas.1518393112">doi:10.1073/pnas.1518393112</a>; Anne Case and Angus Deaton, <i>Deaths of Despair and the Future of Capitalism</i> (Princeton: Princeton University Press, 2020); Office of the US Surgeon General, <i>Our Epidemic of Loneliness and Isolation</i> (2023), <a href="https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf">hhs.gov</a>; Pew Research Center, “Decline of Christianity in the U.S. Has Slowed, May Have Leveled Off” (Religious Landscape Study), 26 February 2025, <a href="https://www.pewresearch.org/religion/2025/02/26/religious-landscape-study-religious-identity/">pewresearch.org</a>; Michael Hout and Claude S. Fischer, “Why More Americans Have No Religious Preference,” <i>American Sociological Review</i> 67, no. 2 (2002): 165–190, <a href="https://doi.org/10.2307/3088891">doi:10.2307/3088891</a>; Ying Chen et al., “Religious Service Attendance and Deaths Related to Drugs, Alcohol, and Suicide among US Health Care Professionals,” <i>JAMA Psychiatry</i> 77, no. 7 (2020): 737–744, <a href="https://doi.org/10.1001/jamapsychiatry.2020.0175">doi:10.1001/jamapsychiatry.2020.0175</a>.</span>The authors of the most important of these findings do not attribute them mainly to a loss of meaning. Case and Deaton locate the root in cumulative disadvantage in the labor market for people without a college degree, compounded by the costs of American health care. They argue that the same decline weakened marriage and religious ties, which left “less structure”: in their phrase, “a Durkheim-like recipe for suicide.” Opioids, they write, “added fuel to the flames.”<label for="n25" class="sn" aria-label="Note 25"></label><input type="checkbox" id="n25" class="sn-t"><span class="sidenote">Case and Deaton, <i>Deaths of Despair</i>; and Case and Deaton, “Mortality and Morbidity in the 21st Century,” <i>Brookings Papers on Economic Activity</i> (Spring 2017): 397–476, <a href="https://doi.org/10.1353/eca.2017.0005">doi:10.1353/eca.2017.0005</a>. On the life-expectancy series, see NCHS Data Brief no. 328 (2018) and Steven H. Woolf and Heidi Schoomaker, <i>JAMA</i> 322, no. 20 (2019): 1996–2016, <a href="https://doi.org/10.1001/jama.2019.16932">doi:10.1001/jama.2019.16932</a>.</span> Four families of explanation compete:</p>
+  <ol>
+    <li><strong>Economic:</strong> declining wages and job quality for workers without degrees.</li>
+    <li><strong>Supply:</strong> the availability of opioids and, later, fentanyl.</li>
+    <li><strong>Social:</strong> the erosion of family, community, and religious ties, which is Durkheim’s “integration.”</li>
+    <li><strong>Meaning:</strong> the loss of a framework within which work and suffering make sense, Frankl’s “existential vacuum.”</li>
+  </ol>
+  <p><span class="ev syn">Synthesis</span> These explanations are not exclusive. The thesis of this essay belongs to the fourth family and partly to the third. It predicts that the losses will be worst where economic hardship removes the last remaining evidence for the minor premise, namely a good job, in a population that never had or has lost any other source of the verdict. That is broadly the pattern Case and Deaton describe, but the essay’s argument is not needed to explain it, and should not be read as the primary cause.</p>
+</section>
+
+<section id="exceptions">
+  <h2><span class="rn">V.</span>Exceptions as evidence</h2>
+  <span class="dates">Who seems protected, and why</span>
+
+  <p>A useful test of any account of modern malaise is to look for people who live in the same economy without suffering the same way, and to ask what distinguishes them.</p>
+
+  <h3>Durkheim’s integration</h3>
+  <p><span class="ev doc">Documented</span> The first statistical study of the question is Émile Durkheim’s <i>Suicide</i> (1897). Durkheim found that suicide rates in nineteenth-century Europe were higher among Protestants than among Catholics, and lower still among Jews. He explained the difference not by doctrine but by integration: the degree to which a community binds its members through shared practices and obligations.<label for="n26" class="sn" aria-label="Note 26"></label><input type="checkbox" id="n26" class="sn-t"><span class="sidenote">Émile Durkheim, <i>Suicide: A Study in Sociology</i> (1897), trans. John A. Spaulding and George Simpson (Glencoe, IL: Free Press, 1951), bk. 2, ch. 2. Critics argue the Catholic–Protestant gap partly reflects how deaths were recorded: Frans van Poppel and Lincoln H. Day, <i>American Sociological Review</i> 61, no. 3 (1996): 500–507, <a href="https://doi.org/10.2307/2096361">doi:10.2307/2096361</a>. But Sascha O. Becker and Ludger Woessmann find that Protestantism did raise suicide in nineteenth-century Prussia, chiefly through weaker social cohesion: <i>Review of Economics and Statistics</i> 100, no. 3 (2018): 377–391, <a href="https://doi.org/10.1162/REST_a_00708">doi:10.1162/REST_a_00708</a>.</span></p>
+
+  <h3>The Amish</h3>
+  <p><span class="ev cor">Correlational</span> The Old Order Amish are arguably the most demanding work-ethic culture in contemporary America. A 2004 pedometer study of an Old Order community in Ontario recorded averages of about 18,400 steps a day for men and 14,200 for women, with almost no obesity among the men. Studies of Amish suicide are few and small. One, covering Pennsylvania from 1974 to 1983, found a rate lower than that of the general population. Another, covering a century in Lancaster County, found the suicides that did occur concentrated in a handful of families with heavy loadings of affective disorder. Alcohol and drug abuse are rare. The more telling point is structural. The distinctive feature of Amish life is not the absence of work, or even of modern industry; many Amish now work in factories and run substantial businesses. It is that the verdict on a person is not delivered by work. The governing value is <i>Gelassenheit</i>, often translated “yieldedness” or “submission”: the surrender of self-will to God and community. Daily life is ordered by the <i>Ordnung</i>, the unwritten rules of each church district, which evaluate new technologies by whether they strengthen or weaken the community. Membership is chosen: young people decide whether to seek baptism as adults.<label for="n27" class="sn" aria-label="Note 27"></label><input type="checkbox" id="n27" class="sn-t"><span class="sidenote">Donald B. Kraybill, Karen M. Johnson-Weiner, and Steven M. Nolt, <i>The Amish</i> (Baltimore: Johns Hopkins University Press, 2013); Young Center for Anabaptist and Pietist Studies, Elizabethtown College, <a href="https://groups.etown.edu/amishstudies/">Amish Studies</a>. David R. Bassett, Patrick L. Schneider, and Gertrude E. Huntington, “Physical Activity in an Old Order Amish Community,” <i>Medicine &amp; Science in Sports &amp; Exercise</i> 36, no. 1 (2004): 79–85, <a href="https://doi.org/10.1249/01.MSS.0000106184.71258.32">doi:10.1249/01.MSS.0000106184.71258.32</a>; Donald B. Kraybill, John A. Hostetler, and David G. Shaw, “Suicide Patterns in a Religious Subculture: The Old Order Amish,” <i>International Journal of Moral and Social Studies</i> 1, no. 3 (1986): 249–263; Janice A. Egeland and James N. Sussex, “Suicide and Family Loading for Affective Disorders,” <i>JAMA</i> 254, no. 7 (1985): 915–918, <a href="https://doi.org/10.1001/jama.1985.03360070053022">doi:10.1001/jama.1985.03360070053022</a>. The Young Center reports that typically 85 percent or more of Amish youth join the church.</span></p>
+
+  <h3>Latter-day Saints: a mixed case</h3>
+  <p><span class="ev cor">Correlational</span> Active members of the Church of Jesus Christ of Latter-day Saints offer evidence in both directions. In a California cohort followed from 1980 to 2004, active members had life expectancies at age 25 of about 84 years for men and 86 for women, well above US white averages. The authors found similar advantages among comparably defined people of all religions, however, which points to lifestyle and community more than to doctrine. Among young Utah men in the early 1990s, less-active members had several times the suicide risk of active members. Yet Utah has one of the highest state suicide rates in the country (seventh in 2022), and LGBTQ youth there report far more suicidal thoughts than their peers, inside and outside the church.<label for="n28" class="sn" aria-label="Note 28"></label><input type="checkbox" id="n28" class="sn-t"><span class="sidenote">James E. Enstrom and Lester Breslow, “Lifestyle and Reduced Mortality among Active California Mormons, 1980–2004,” <i>Preventive Medicine</i> 46, no. 2 (2008): 133–136, <a href="https://doi.org/10.1016/j.ypmed.2007.07.030">doi:10.1016/j.ypmed.2007.07.030</a>; Sterling C. Hilton, Gilbert W. Fellingham, and Joseph L. Lyon, “Suicide Rates and Religious Commitment in Young Adult Males in Utah,” <i>American Journal of Epidemiology</i> 155, no. 5 (2002): 413–419, <a href="https://doi.org/10.1093/aje/155.5.413">doi:10.1093/aje/155.5.413</a>; Utah Department of Health and Human Services, IBIS suicide indicator; Jacob S. McGraw et al., <i>Psychology of Sexual Orientation and Gender Diversity</i> 10, no. 2 (2023): 257–268, <a href="https://doi.org/10.1037/sgd0000517">doi:10.1037/sgd0000517</a>. All of this evidence is observational, and most of it is cross-sectional.</span> Some observers connect part of this to cultures of high expectation within a strong faith. That would be the practical syllogism reappearing inside a religious framework. The evidence for that interpretation is suggestive, not conclusive.</p>
+
+  <h3>The Calvinists themselves</h3>
+  <p><span class="ev syn">Synthesis</span> The strongest counterexample to the idea that any firm faith protects is the case this essay began with. Seventeenth-century Calvinists had about as strong a religious framework as has ever existed, and on Weber’s account that framework produced the anxiety. Having a foundation was not the issue. What mattered was the foundation’s answer to whether one could know one was acceptable.</p>
+
+  <div class="finding">
+    <span class="h">Finding</span>
+    <p>Across these cases, protection appears to follow three features more closely than it follows belief as such. (1) <strong>Worth that is not earned:</strong> the community’s verdict on a person is not derived from performance. (2) <strong>Belonging that survives failure:</strong> membership does not lapse when the evidence does. (3) <strong>Practiced limits:</strong> regular, shared practices (Sabbath, fasting, the <i>Ordnung</i>) keep work and consumption in a subordinate place. Where a strong faith reintroduces a performance test, as in the Calvinist case and arguably in perfectionist strands of other traditions, the protective effect weakens. This is a hypothesis drawn from a small number of cases, not an established result.</p>
+  </div>
+</section>
+
+<section id="exits">
+  <h2><span class="rn">VI.</span>Four exits</h2>
+  <span class="dates">Ways out of a syllogism with no authority</span>
+
+  <p><span class="ev syn">Synthesis</span> An inference with a desired conclusion, a supply of evidence, and no authority to bind its major premise can be resolved in only a few ways. One can restore a verdict that does not depend on the evidence. One can stop requiring the conclusion. One can move the source of worth from the verdict to the activity itself. Or, at the collective level, one can refuse to let any finite party issue the verdict for others. Each exit has serious advocates, many of them people who had lived through the twentieth century’s most destructive attempts to supply the missing author.</p>
+
+  <div class="exits">
+    <div class="exit"><span class="n">Exit 1</span><b>A verdict not inferred</b><span>Worth is received, not proven. Luther, Tillich.</span></div>
+    <div class="exit"><span class="n">Exit 2</span><b>Release from the conclusion</b><span>Meaning without a verdict. Frankl, Camus.</span></div>
+    <div class="exit"><span class="n">Exit 3</span><b>Goods internal to practice</b><span>Worth found in the doing. MacIntyre, Pieper, Heschel, Borgmann, Berry.</span></div>
+    <div class="exit"><span class="n">Exit 4</span><b>No collective verdict</b><span>The line runs through every heart. Solzhenitsyn, Havel, Arendt, Weber.</span></div>
+  </div>
+
+  <h3>Exit 1: A verdict not inferred</h3>
+  <p>The first exit is the oldest, and it is ironic. The Reformation began as an escape from anxious striving: Luther’s central claim was that a person’s standing before God is given, not earned. Within a few generations, Calvinist uncertainty about who had received the gift had turned that relief into the most methodical striving in history. Paul Tillich restated the original claim for readers who might not share its theology, in a sermon addressed directly to the search for signs:</p>
+
+  <div class="quote">
+    <blockquote>You are accepted. You are accepted, accepted by that which is greater than you, and the name of which you do not know. Do not ask for the name now; perhaps you will find it later. Do not try to do anything now; perhaps later you will do much. Do not seek for anything; do not perform anything; do not intend anything. Simply accept the fact that you are accepted!</blockquote>
+    <cite>Paul Tillich, “You Are Accepted,” in <i>The Shaking of the Foundations</i> (New York: Scribner’s, 1948), ch. 19</cite>
+  </div>
+
+  <p>The order of the sentences is the argument. Acceptance comes first and work, if any, comes later. That reverses the practical syllogism, in which work comes first and anxiously awaits a verdict.</p>
+
+  <h3>Exit 2: Release from the conclusion</h3>
+  <p>The second exit does not supply a verdict. It denies that one is needed. Viktor Frankl, writing after his imprisonment in Nazi camps, argued that meaning is found rather than manufactured: in work worth doing, in love for particular persons, and in the attitude one takes toward unavoidable suffering. Everything, he wrote, “can be taken from a man but one thing: the last of the human freedoms—to choose one’s attitude in any given set of circumstances, to choose one’s own way.”<label for="n29" class="sn" aria-label="Note 29"></label><input type="checkbox" id="n29" class="sn-t"><span class="sidenote">Viktor E. Frankl, <i>Man’s Search for Meaning</i>, pt. 1 (German original <i>Ein Psychologe erlebt das Konzentrationslager</i>, 1946; English trans. Ilse Lasch, 1959). Frankl’s terms “will to meaning” and “existential vacuum” are developed in pt. 2.</span> Albert Camus, an unbeliever, rejected both religious and historical salvation and defended a rebellion that keeps its own limits: “I rebel—therefore we exist.”<label for="n30" class="sn" aria-label="Note 30"></label><input type="checkbox" id="n30" class="sn-t"><span class="sidenote">Albert Camus, <i>The Rebel</i> (1951), trans. Anthony Bower (London: Hamish Hamilton, 1953), last line of pt. 1. Camus’s defense of limits (<i>mesure</i>) is developed in pt. 5, “Thought at the Meridian.”</span> In both, meaning does not depend on how the case turns out, which makes it immune to the search for signs.</p>
+
+  <h3>Exit 3: Goods internal to practice</h3>
+  <p>The third exit relocates worth from the verdict to the activity. MacIntyre distinguishes goods <em>external</em> to a practice, such as money, status, and recognition, from goods <em>internal</em> to it, which can be had only by doing the practice well and are recognized only by those who take part.<label for="n31" class="sn" aria-label="Note 31"></label><input type="checkbox" id="n31" class="sn-t"><span class="sidenote">MacIntyre, <i>After Virtue</i>, ch. 14: a practice is “any coherent and complex form of socially established cooperative human activity through which goods internal to that form of activity are realized in the course of trying to achieve those standards of excellence” appropriate to it.</span> External goods function as evidence for a verdict. Internal goods do not point beyond themselves, so they cannot be enlisted in the syllogism.</p>
+
+  <p>Several writers describe practices that resist that enlistment. Josef Pieper warned against a world of “total work” in which every activity must justify itself by its usefulness, and he defended leisure as the condition of culture.<label for="n32" class="sn" aria-label="Note 32"></label><input type="checkbox" id="n32" class="sn-t"><span class="sidenote">Josef Pieper, <i>Leisure: The Basis of Culture</i> (German 1948; English trans. 1952).</span> Abraham Joshua Heschel described the Sabbath as an architecture of time:</p>
+
+  <div class="quote">
+    <blockquote>Judaism is a religion of time aiming at the sanctification of time… The Sabbaths are our great cathedrals.</blockquote>
+    <cite>Abraham Joshua Heschel, <i>The Sabbath: Its Meaning for Modern Man</i> (1951), Prologue</cite>
+  </div>
+
+  <p>The Sabbath directly counters Baxter’s doctrine of time. One day in seven is set apart precisely because it produces nothing. Borgmann’s focal practices, such as the shared meal, the garden, and the craft, are secular relatives. The farmer and poet Wendell Berry spent a long career arguing for them, and his best-known poem ends with a two-word instruction: “Practice resurrection.”<label for="n33" class="sn" aria-label="Note 33"></label><input type="checkbox" id="n33" class="sn-t"><span class="sidenote">Wendell Berry, “Manifesto: The Mad Farmer Liberation Front,” in <i>The Country of Marriage</i> (New York: Harcourt Brace Jovanovich, 1973).</span> The phrase is apt for this argument. Part I showed habits outliving their belief. Exit 3 suggests the sequence can also run in reverse, with practice coming first and a foundation growing from it.</p>
+
+  <h3>Exit 4: No collective verdict</h3>
+  <p>The fourth exit applies to the political form of the syllogism, in which history serves as judge and opponents become evidence against one’s own election. Aleksandr Solzhenitsyn, who spent years in the Soviet camps, wrote against exactly that structure:</p>
+
+  <div class="quote">
+    <blockquote>If only it were all so simple! If only there were evil people somewhere insidiously committing evil deeds, and it were necessary only to separate them from the rest of us and destroy them. But the line dividing good and evil cuts through the heart of every human being. And who is willing to destroy a piece of his own heart?</blockquote>
+    <cite>Aleksandr Solzhenitsyn, <i>The Gulag Archipelago</i> (1973), trans. Thomas P. Whitney (1974), vol. 1, pt. 1, ch. 4</cite>
+  </div>
+
+  <p>Václav Havel’s “The Power of the Powerless” (1978) proposed “living within the truth” in one’s own sphere, which means refusing the small daily rituals of a regime’s ideology, as the alternative to waiting for collective vindication. Hannah Arendt identified forgiveness as the faculty that releases people from the endless consequences of what they have done: “The possible redemption from the predicament of irreversibility… is the faculty of forgiving.”<label for="n34" class="sn" aria-label="Note 34"></label><input type="checkbox" id="n34" class="sn-t"><span class="sidenote">Hannah Arendt, <i>The Human Condition</i> (Chicago: University of Chicago Press, 1958), §33, “Irreversibility and the Power to Forgive,” 237.</span> And Weber, at the end of his life, set the ethic of responsibility against the ethic of pure conviction: “Politics is a strong and slow boring of hard boards. It takes both passion and perspective.”<label for="n35" class="sn" aria-label="Note 35"></label><input type="checkbox" id="n35" class="sn-t"><span class="sidenote">Max Weber, “Politics as a Vocation” (delivered 28 January 1919), in Gerth and Mills, <i>From Max Weber</i>, 128.</span></p>
+
+  <h3>Distinguishing an exit from a new idol</h3>
+  <p><span class="ev syn">Synthesis</span> Taken together, these writers suggest criteria for telling whether a proposal (religious, political, or personal) offers a way out of the syllogism or a new author for it:</p>
+  <ol class="criteria">
+    <li><strong>Where does it draw the line between good and evil?</strong> Between groups, or through each person, including its own adherents?</li>
+    <li><strong>Does it defer the verdict to history?</strong> Will everything be settled once the right side prevails?</li>
+    <li><strong>Does it treat something finite as ultimate?</strong> A nation, leader, identity, or cause placed beyond question.</li>
+    <li><strong>Does it permit rest and forgiveness?</strong> Or does it require total mobilization and permanent proof of loyalty?</li>
+    <li><strong>Does it work at the scale of a life?</strong> Does it give a person someone or something to tend, or only positions to hold?</li>
+  </ol>
+</section>
+
+<section id="conclusion">
+  <h2>Conclusion</h2>
+  <span class="dates">What this genealogy shows, and what it does not</span>
+
+  <p>The essay has argued that the most durable legacy of the Protestant ethic is not a set of habits but an argument form: an inference from performance to acceptability. It has traced how the form survived the loss of its first authority by acquiring others (providence, the market, the self, feeling, history), each of which proved less able to deliver a verdict than the last. In its present form the inference runs without any recognized judge, which accounts for a cluster of contemporary experiences: guilt about idleness, busyness as a status signal, burnout, and the moralized search for evidence of being on the right side.</p>
+
+  <p>It has not shown that this pattern causes the large-scale trends in mortality and isolation discussed in Part IV. Those have well-documented economic and material causes, and the essay’s argument is at most one strand among several. Nor does the essay claim that the Calvinist past was better. The original form of the syllogism was itself a source of acute anxiety.</p>
+
+  <p>Several questions are open for further research. Can “assurance-seeking” be measured directly, as a disposition distinct from contingent self-esteem? Do the protective features identified in Part V (worth that is not earned, belonging that survives failure, practiced limits) predict wellbeing independently of religious belief, for example in secular communities with strong practices? And are reports of renewed religious practice among young adults real? Some have not survived scrutiny; a widely cited British survey was withdrawn in 2026 after fraudulent responses were found. If the reports are real, do those returning describe their motives in terms closer to the first exit or the third?</p>
+
+  <p class="closing">The essay began with a feeling many readers will recognize: unease when idle, and a sense that a full calendar argues one’s case. If the argument here is right, a reader who has that feeling is running an inference five centuries old whose first premise no longer has an author. Whether to supply one, set the inference down, or find one’s worth somewhere it was never in question is not something an essay can decide. It can only make the choice visible.</p>
+</section>
+
+</div>
+</article>

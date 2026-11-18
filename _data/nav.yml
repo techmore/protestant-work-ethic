@@ -1,24 +1,10 @@
 - url: /
-  title: Start
-- url: /prologue.html
-  title: Prologue
-- url: /mechanism.html
-  title: "I · Mechanism"
-- url: /secularization.html
-  title: Secularization
-- url: /substitutes.html
-  title: Substitutes
-- url: /fracture.html
-  title: "II · Fracture"
-- url: /signs.html
-  title: Signs
-- url: /hearth.html
-  title: Hearth
-- url: /ways-through.html
-  title: "III · Ways Through"
-- url: /criticisms.html
-  title: Criticisms
+  title: Essay
+- url: /evidence.html
+  title: Evidence
+- url: /historiography.html
+  title: Historiography
 - url: /timeline.html
   title: Timeline
-- url: /reading.html
-  title: Reading
+- url: /sources.html
+  title: Sources
